@@ -45,7 +45,7 @@ const htmlArr = initialFacts.map(
 );
 console.log(htmlArr);
 const html = htmlArr.join("");
-factsList.insertAdjacentElement("afterbegin", html);
+factsList.insertAdjacentHTML("afterbegin", html);
 
 // toggle form visibility
 btn.addEventListener("click", function () {
